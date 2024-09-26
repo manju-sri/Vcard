@@ -1,0 +1,75 @@
+.vcard-container {
+    width: 90%;
+    align-items: flex-start;
+    position: relative; 
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+ 
+    z-index: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+#vcard-main{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.qr-container {
+    position: absolute; 
+    top: 100px; 
+    right: 30px;
+    z-index: 10; 
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+
+
+.vcard-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+label {
+    margin-bottom: 10px; 
+    font-weight:700px;
+}
+
+input {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px; 
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: hsl(234, 66%, 47%); 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(224, 79%, 42%); 
+}
+.scan-message {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
